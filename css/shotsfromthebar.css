@@ -8,17 +8,18 @@
   margin-bottom: 0px;
 }
 .post-navbar {
-  position: fixed;
+  position: relative;
   background-color: transparent;
 }
 .navbar-right {
   display: none;
 }
-
 .navbar-fixed-top {
     border: 0px;
 }
-
+.navbar-brand {
+  padding-left: 30px;
+}
 /*To get rid of inability to "hover" on mobile device*/
 .portfolio-box .portfolio-box-caption {
   opacity:0;
@@ -42,3 +43,22 @@
   margin-left: auto;
 }
 
+/*colour pallete*/
+.navbar-default .navbar-header .navbar-brand {
+  color: #BA783C;
+}
+.portfolio-box .portfolio-box-caption {
+    background: rgba(186,120,20,.7);
+}
+.text-faded {
+  color: rgba(255, 255, 255, 1);
+}
+a {
+    color: #DBDBDB;
+}
+a:hover, a:focus {
+  color: #DBDBDB;
+}
+body {
+  background-color: #F2F2F2
+}
