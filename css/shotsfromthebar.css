@@ -30,11 +30,14 @@
 /*To get rid of inability to "hover" on mobile device*/
 .portfolio-box .portfolio-box-caption {
   opacity:0;
-/*  display: none;*/
 }
+/*.portfolio-box:hover .portfolio-box-caption {
+  opacity: 0.9;
+}*/
 .portfolio-box:focus .portfolio-box-caption {
   opacity: 1;
 }
+
 @media (min-width: 768px) {
 .portfolio-box .portfolio-box-caption {
   opacity: 0;
