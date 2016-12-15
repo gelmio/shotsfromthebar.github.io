@@ -16,17 +16,17 @@
         offset: 51
     });
 
-    // Closes the Responsive Menu on Menu Item Click
-    $('.navbar-collapse ul li a').click(function() {
-        $('.navbar-toggle:visible').click();
-    });
+    // // Closes the Responsive Menu on Menu Item Click
+    // $('.navbar-collapse ul li a').click(function() {
+    //     $('.navbar-toggle:visible').click();
+    // });
 
-    // Offset for Main Navigation
-    $('#mainNav').affix({
-        offset: {
-            top: 100
-        }
-    })
+    // // Offset for Main Navigation
+    // $('#mainNav').affix({
+    //     offset: {
+    //         top: 100
+    //     }
+    // })
 
     // Initialize and Configure Scroll Reveal Animation
     window.sr = ScrollReveal();
@@ -45,7 +45,7 @@
         distance: '0px'
     }, 300);
 
-    // Initialize and Configure Magnific Popup Lightbox Plugin
+    Initialize and Configure Magnific Popup Lightbox Plugin
     $('.popup-gallery').magnificPopup({
         delegate: 'a',
         type: 'image',

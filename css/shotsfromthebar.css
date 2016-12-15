@@ -1,0 +1,44 @@
+.container-fluid {
+  padding: 0px;
+}
+
+.navbar {
+  position: relative;
+  background-color: black;
+  margin-bottom: 0px;
+}
+.post-navbar {
+  position: fixed;
+  background-color: transparent;
+}
+.navbar-right {
+  display: none;
+}
+
+.navbar-fixed-top {
+    border: 0px;
+}
+
+/*To get rid of inability to "hover" on mobile device*/
+.portfolio-box .portfolio-box-caption {
+  opacity:0;
+/*  display: none;*/
+}
+.portfolio-box:focus .portfolio-box-caption {
+  opacity: 1;
+}
+@media (min-width: 768px) {
+.portfolio-box .portfolio-box-caption {
+  opacity: 0;
+  display: block;
+}
+}
+
+.feature-img {
+  max-height: 100vh; 
+  max-width: 100%;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
