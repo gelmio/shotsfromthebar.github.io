@@ -2,6 +2,13 @@
   padding: 0px;
 }
 
+/*overwrite oddities in bootstrap that are causing white margin on the sides*/
+.row {
+  margin: 0px;
+}
+.container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
+  margin: 0px;
+}
 .navbar {
   position: relative;
   background-color: black;
