@@ -16,9 +16,12 @@ h1, h2 {
 .post-content p {
   font-size: 16px;
   line-height: 1.5;
-  margin: 12px 12px 12px 0;
+  margin: 12px;
   text-align: justify;
   font-family: 'Open Sans';
+}
+.post-content h1, h2 {
+  padding-left: 10px;
 }
 
 /*overwrite oddities in bootstrap that are causing white margin on the sides*/
@@ -62,6 +65,12 @@ h1, h2 {
 .portfolio-box:focus .portfolio-box-caption {
   opacity: 1;
 }
+.portfolio-box a {
+  display: none;
+}
+.portfolio-box:hover a, .portfolio-box:focus a {
+ display: inherit;
+}
 
 @media (min-width: 768px) {
 .portfolio-box .portfolio-box-caption {
@@ -69,7 +78,6 @@ h1, h2 {
   display: block;
 }
 }
-
 .feature-img {
   max-height: 90vh; 
   max-width: 100%;
@@ -77,12 +85,19 @@ h1, h2 {
   margin-right: auto;
   margin-left: auto;
 }
+
 .post-content {
-  padding: 20px;
   display: block;
   margin-right: auto;
   margin-left: auto;
-  max-width: 700px;  
+  max-width: 640px;
+  margin-top: 40px;
+}
+.post-content img {
+  max-height: 95vh;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 /*colour pallete*/
@@ -103,4 +118,8 @@ a:hover, a:focus {
 }
 body {
   background-color: #F2F2F2
+}
+
+.next-prev {
+  margin: 40px 0px;
 }
