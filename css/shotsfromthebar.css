@@ -8,7 +8,7 @@ h1 {
 h2 {
   font-size: 24px;
   margin: 5px 5px;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 h1, h2 {
   margin-left: 10px;
@@ -65,12 +65,7 @@ h1, h2 {
 .portfolio-box:focus .portfolio-box-caption {
   opacity: 1;
 }
-.portfolio-box a {
-  display: none;
-}
-.portfolio-box:hover a, .portfolio-box:focus a {
- display: inherit;
-}
+
 
 @media (min-width: 768px) {
 .portfolio-box .portfolio-box-caption {
@@ -96,8 +91,7 @@ h1, h2 {
 .post-content img {
   max-height: 95vh;
   display: block;
-  margin-right: auto;
-  margin-left: auto;
+  margin: 30px auto;
 }
 
 /*colour pallete*/
@@ -120,6 +114,11 @@ body {
   background-color: #F2F2F2
 }
 
+
 .next-prev {
   margin: 40px 0px;
+}
+
+.project-name a {
+  box-sizing: content-box;
 }
