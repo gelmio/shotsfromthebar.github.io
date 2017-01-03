@@ -40,9 +40,9 @@ h1, h2 {
   position: relative;
   background-color: transparent;
 }
-.navbar-right {
+/*.navbar-right {
   display: none;
-}
+}*/
 .navbar-fixed-top {
     border: 0px;
 }
