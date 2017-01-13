@@ -124,3 +124,13 @@ body {
 .project-name a {
   box-sizing: content-box;
 }
+.logo {
+  max-height: 100%;
+  display: inline !important;
+  padding: 5px;
+}
+.navbar-brand {
+  padding: 0px 10px;
+  min-height: 40px;
+  margin: 0px !important;
+}
