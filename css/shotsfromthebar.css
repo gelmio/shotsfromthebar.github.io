@@ -125,7 +125,7 @@ body {
   box-sizing: content-box;
 }
 .logo {
-  max-height: 100%;
+  max-height: 50px;
   display: inline !important;
   padding: 5px;
 }
@@ -133,4 +133,18 @@ body {
   padding: 0px 10px;
   min-height: 40px;
   margin: 0px !important;
+}
+
+.footer-icon {
+  height: 50px;
+  padding: 0px;
+}
+.footer-icon .img {
+  padding: 0px;
+}
+.navbar-header {
+  float: left;
+}
+.header-icon{
+  float: right;
 }
