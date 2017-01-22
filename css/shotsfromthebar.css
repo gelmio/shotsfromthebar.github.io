@@ -108,7 +108,7 @@ a:hover, a:focus {
   color: #DBDBDB;
   text-decoration: underline
 }
-.project-name a {
+.project-name a, .project-category a {
   color: #fff;
   font-weight: bold;
 }
