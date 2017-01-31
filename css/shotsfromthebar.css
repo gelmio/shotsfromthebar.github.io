@@ -148,3 +148,8 @@ body {
 .header-icon{
   float: right;
 }
+.gosocial {
+  text-align: center;
+  color: white;
+  margin: 0px
+}
