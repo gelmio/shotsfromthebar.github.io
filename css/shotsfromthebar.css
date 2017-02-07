@@ -152,18 +152,21 @@ body {
 .footertext {
   text-align: center;
   color: white;
-  margin: 30px 0 10px 0;
+  margin: 10px 0;
 }
 .gosocial {
   text-align: center;
   color: white;
-  margin: 40px 0 0 0;
+  margin: 20px 0 0 0;
 }
 .nomargin {
   margin: 0px;
 }
 .smalltext {
   font-size: 10px;
+}
+.mediumtext {
+  font-size: 13px;
 }
 .flexx {
   display: flex;
@@ -174,4 +177,10 @@ body {
 }
 .articleshots {
   max-height: 105px;
+}
+.footerrow {
+  margin: 25px 0;
+}
+.paddedbottom {
+  padding-bottom: 25px;
 }
