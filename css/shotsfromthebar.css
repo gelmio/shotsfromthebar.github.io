@@ -184,3 +184,13 @@ body {
 .paddedbottom {
   padding-bottom: 25px;
 }
+.socialshare img {
+  max-width: 22%;
+}
+.socialshare {
+  text-align: center;
+}
+.sharetext {
+  color: black;
+  margin: 2px 0px 10px 0
+}
