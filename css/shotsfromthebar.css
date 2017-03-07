@@ -199,3 +199,28 @@ body {
   text-align: right !important;
   font-size: 12px !important
 }
+.fixd {
+  position: fixed;
+}
+.floater {
+  position: fixed;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+  background: black;
+  bottom: 0;
+  margin-bottom: 0;
+  border-width: 1px 0 0;
+  color: white;
+}
+.vcenter {
+    display: flex;
+    align-items: middle
+}
+.obliviousbtn {
+  max-width: 45%;
+  max-height: 30px;
+}
+.tmarginsmall{
+  margin: 20px 0 0 0;
+}

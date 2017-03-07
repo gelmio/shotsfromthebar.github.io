@@ -5,3 +5,9 @@ $('.grid').imagesLoaded( function(){
 	percentPosition: true
   });
 });
+
+$(document).ready(function(){
+    $('#disappear').click(function(){
+        $('#gone').hide();
+    });
+});
